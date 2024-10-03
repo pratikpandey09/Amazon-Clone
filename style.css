@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo-icon{
+    height: 50px;
+    width: 100%;
+    background-image: url('/amazon_logo.png');
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* For addressing  */
+.nav-location{
+    align-items: center;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px 0px 9px;
+}
+.deliver{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 23px;
+}
+.india{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+}
+
+/* now we adding search icons  */
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 800px;
+    background-color: #616161;
+    border-radius: 6px;
+}
+
+.search-select{
+    color: #0f1111;
+    background-color: #E6E6E6;
+    font-size: 17px;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    color: #616161;
+    font-size: 1rem;
+    width: 700px;
+    text-align: start;
+    border: none;
+
+}
+.search-icon{
+    font-size: 1.5rem;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd40;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.fa-solid{
+    color: white;
+}
+.nav-search:hover{
+    border: 2px solid #febd40;
+}
+/* <!-- these will decide country --> */
+.nav-country{
+    width: 70px;
+    height: 50px;
+}
+.country-flag{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.country{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+/* <!-- this is for signing in and account details --> */
+span{
+    font-size: 12px;
+}
+.nav-account{
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-return{
+    font-size: 12px;
+}
+
+/* <!-- this is for adding cart icon --> */
+.nav-cart i{
+    color: white;
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 12px;
+}
+/*  second nav bar */
+.navbar-second{
+    height: 40px;
+    background-color: #37475a;
+    display: flex;
+}
+
+.navbar-second-1stbox{
+    height: 40px;
+    width: 60px;
+}
+.navbar-second-1stbox-icon{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.all{
+    margin-left: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-second-2nd-box{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 20px; */
+}
+.navbar-second-2nd-box a{
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* <!-- now starts HERO SECTION --> */
+.hero-section{
+    height: 400px;
+    background-image: url('../hero_section.png');
+    background-size: cover;
+}
+
+/* <!-- SHOPING SECTION --> */
+.products-shoping {
+    background-color: rgba(235, 172, 27, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    width: 350px;
+    height: 450px;
+    margin-top: 25px;
+    background-color: white;
+}
+box:hover{
+    transition: background-size ease-in ;
+}
+h2{
+    color: #0f1111;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+.box-1-1st-img{
+    width: 280px;
+    height: 150px;
+    background-image: url('../box-1\(1st-img\).png');
+    background-size: cover;
+    border: none;
+    margin-top: 10px;
+}
+.box-1-2nd-img{
+    width: 115px;
+    height: 90px;
+    background-image: url('../box-1\(2nd-img\).png');
+    background-size: cover;
+}
+.box-1-3rd-img{
+    width: 115px;
+    height: 90px;
+    background-image: url('../box-1\(inside-2nd\).png');
+    background-size: cover;
+}
+.box-1-4th-img{
+    width: 115px;
+    height: 90px;
+    background-image: url('../box1-4th.png');
+    background-size: cover;
+}
+/* <!-- SHOPING SECTION BOX 2 --> */
+
+.box-2{
+    /* THESE properties applied for 4 boxes same  */
+    border: 2px solid #0f1111;
+    width: 160px;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+/*  BOX 2 IMAGES */
+.box-2-1st-img{
+    background-image: url('../box-2-1st-img.png');
+    background-size: cover;
+    width: 150px;
+    border: none;
+}
+
+.box-2-2nd-img{
+    background-image: url('../box-2-2nd-img.png');
+    background-size: cover;
+    border: none;
+}
+
+.box-2-3rd-img{
+    background-image: url('../box-2-3rd-img.png');
+    background-size: cover;
+    border: none;
+
+}
+
+.box-2-4th-img{
+    background-image: url('../box-2-4th-img.png');
+    background-size: cover;
+    border: none;
+}
+
+/* box - 3  */
+.box-3{
+    height: 300px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    background-image: url('../box-3-new.png');
+    background-size: cover;
+}
+
+/* BOX 4th */
+
+.box-4-1st-img{
+    background-image: url('../box-4-1st-img.png');
+    background-size: cover;
+    border: none;
+}
+
+.box-4-2nd-img{
+    background-image: url('../box-4-2nd-img.png');
+    background-size: cover;
+    border: none;
+}
+
+.box-4-3rd-img{
+    background-image: url('../box-4-3rd-img.png');
+    background-size: cover;
+    border: none;
+}
+
+.box-4-4th-img{
+    background-image: url('../box-4-4th-img.png');
+    background-size: cover;
+    border: none;
+}
+/* BOX -5 */
+.box-5-1st-img{
+    background-image: url('../box-5-1st-img.png');
+    background-size: cover;
+    border: none;
+}
+.box-5-2nd-img{
+    background-image: url('../box-5-2nd-img.png');
+    background-size: cover;
+    border: none;
+}
+.box-5-3rd-img{
+    background-image: url('../box-5-3rd-img.png');
+    background-size: cover;
+    border: none;
+}
+.box-5-4th-img{
+    background-image: url('../box-5-4th-img.png');
+    background-size: cover;
+    border: none;
+}
+
+/* box-6 */
+.box-6{
+    height: 300px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 62px;
+    background-image: url('../box-6.png');
+    background-size: cover;
+}
+/* box 7 */
+.box-7{
+    height: 360px;
+    width: 330px;
+    /* border: 2px solid #0f1111; */
+    margin-top: 20px;  
+}
+.img-container{
+    height: 330px;
+    width: 310px;
+    /* border: 2px solid #0f1111; */
+    margin-left: 10px;
+    background-image: url('../box-7.png');
+    background-size: cover;
+
+}
+
+/* THIRD PORTION OF THE WEBSITE */
+
+.third-portion{
+    height: 320px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 12px;
+
+}
+.third-portion-content{
+    display: flex;
+}
+.third-portion-img-1{
+    width: 115px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-3-1st-img.png');
+    background-size: cover;
+}
+
+
+.third-portion-img-2{
+    width: 170px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-2.png');
+    background-size: cover;
+}
+
+.third-portion-img-3{
+    width: 150px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-3.png');
+    background-size: cover;
+}
+.third-portion-img-4{
+    width: 200px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-4-.png');
+    background-size: cover;
+}
+
+.third-portion-img-5{
+    width: 270px; 
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-5.png');
+    background-size: cover;
+}
+.third-portion-img-6{
+    width: 210px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-6.png');
+    background-size: cover;
+}
+
+.third-portion-img-7{
+    width: 230px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../third-portion-img-7.png');
+    background-size: cover;
+}
+
+.fourth-portion{
+    height: 330px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.fourth-portion h2{
+    padding-top: 30px;
+}
+.fourth-portion-img-1{
+    width: 186px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-1st-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-2{
+    width: 250px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-2nd-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-3{
+    width: 100px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-3rd-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-4{
+    width: 70px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-4th-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-5{
+    width: 200px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-5th-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-6{
+    width: 270px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-6th-img.png');
+    background-size: cover;
+}
+
+.fourth-portion-img-7{
+    width: 200px; 
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url('../portion-4-7th-img.png');
+    background-size: cover;
+}
+
+/* FOOTER SECTION */
+
+.foot-panel-1st{
+    height: 60px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 20px;
+
+}
+
+.foot-panel-2nd{
+    height: 400px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #dddddd;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    font-size: 0.84rem;
+    padding-top: 20px;
+}
+ul p{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.footer-panel-3{
+    height: 100px;
+    background-color: #232f3e;
+}
